@@ -1,8 +1,23 @@
+# AI Web Scraper Dependencies
+# This file lists all Python packages required to run the application
+
+# Web application framework for creating the user interface
 streamlit>=1.28.0
+
+# LangChain framework for AI/LLM integration
 langchain>=0.1.0
+# Ollama integration for LangChain (local LLM support)
 langchain_ollama>=0.1.0
+
+# Web scraping and browser automation
 selenium>=4.15.0
+
+# HTML parsing and content extraction
 beautifulsoup4>=4.12.0
+# XML/HTML parser backend for BeautifulSoup
 lxml>=4.9.0
+# Alternative HTML parser for BeautifulSoup
 html5lib>=1.1
+
+# Environment variable management for secure credential storage
 python-dotenv>=1.0.0
