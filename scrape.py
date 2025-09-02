@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Get Bright Data connection string from environment variable
+#Get Bright Data connection string from environment variable(not using mine since this is a public repo lol)
 SBR_WEBDRIVER = os.getenv('SBR_WEBDRIVER', 'https://brd-customer-YOUR_CUSTOMER_ID-zone-YOUR_ZONE:YOUR_PASSWORD@brd.superproxy.io:9515')
 
 # Validate that credentials are configured

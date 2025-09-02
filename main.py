@@ -24,7 +24,7 @@ if st.button("Scrape Website"):
         #store the DOM content in Streamlit session state
         st.session_state.dom_content = cleaned_content
 
-        #this display the DOM content in an expandable text box
+        #this displays the DOM content in an expandable text box
         with st.expander("View DOM Content"):
             st.text_area("DOM Content", cleaned_content, height=300)
 
